@@ -58,7 +58,7 @@ sections:
   match: "*.toml"
   new_doc_ext: toml
 - type: directory
-  path: assets
+  path: assets/css
   label: Static Assets
   create: all
   match: "**/*"
