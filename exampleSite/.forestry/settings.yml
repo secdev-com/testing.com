@@ -11,7 +11,7 @@ sections:
   label: CSS
   create: all
   match: "*"
-  new_doc_ext: ".css"
+  new_doc_ext: css
 - type: heading
   label: Blog Post
 - type: directory
