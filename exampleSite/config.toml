@@ -1,9 +1,9 @@
-baseURL = "/"
+baseURL = "https://secdev.com"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
-theme = "meghna-hugo"
+theme = "secdev.com"
 themesDir = "../.."
 title = "Meghna"
 [Languages.en]
