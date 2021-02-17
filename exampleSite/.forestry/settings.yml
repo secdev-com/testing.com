@@ -5,13 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Static Assets
-- type: directory
-  path: assets/css
-  label: CSS
-  create: all
-  match: "*"
-  new_doc_ext: css
+  label: Menu
+- type: document
+  path: exampleSite/config.toml
+  label: Menu Bar
+  match: "**/*"
 - type: heading
   label: Blog Post
 - type: directory
