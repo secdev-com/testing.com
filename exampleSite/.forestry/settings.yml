@@ -5,6 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Static Assets
+- type: directory
+  path: assets/css
+  label: CSS
+  create: all
+  match: "**/*"
+  new_doc_ext: ".css"
+- type: heading
   label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
@@ -57,12 +65,6 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
-- type: directory
-  path: assets/css
-  label: Static Assets
-  create: all
-  match: "**/*"
-  new_doc_ext: ".css"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
