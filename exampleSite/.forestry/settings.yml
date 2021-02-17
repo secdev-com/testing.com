@@ -6,12 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Static Assets
-- type: directory
-  path: "../assets/css"
-  label: CSS
-  create: all
-  match: "**/*"
-  new_doc_ext: css
 - type: heading
   label: Blog Post
 - type: directory
