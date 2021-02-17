@@ -62,6 +62,7 @@ sections:
   label: Static Assets
   create: all
   match: "**/*"
+  new_doc_ext: ".css"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
