@@ -1,6 +1,6 @@
 /* Style the video: 100% width and height to cover the entire window */
 #bgVideo {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   min-width: 100%;
