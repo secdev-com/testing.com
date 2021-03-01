@@ -15,7 +15,7 @@
   
 }
 
-section .hero-area {
+.hero-area {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -24,7 +24,7 @@ section .hero-area {
   overflow: hidden;
 }
 
-section .hero-area video {
+.hero-area video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -39,12 +39,12 @@ section .hero-area video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-section .hero-area .container {
+.hero-area .container {
   position: relative;
   z-index: 2;
 }
 
-section .hero-area .overlay {
+.hero-area .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -56,10 +56,10 @@ section .hero-area .overlay {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  header {
+  .hero-area {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
-  header video {
+  .hero-area video {
     display: none;
   }
 }
