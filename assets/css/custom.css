@@ -15,7 +15,7 @@
   
 }
 
-.hero-area {
+section .hero-area {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 
-.hero-area video {
+section .hero-area video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,7 +44,7 @@
   z-index: 2;
 }
 
-.hero-area .overlay {
+section .hero-area .overlay {
   position: absolute;
   top: 0;
   left: 0;
