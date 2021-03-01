@@ -8,10 +8,8 @@
 	<!-- this image is for trigger this section fallback background image -->
 	<!--<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>-->
 	<div class="overlay">
-	<div class="bg-video">	
-	<video playsinline autoplay muted loop id="bgVideo"><source src="Octagon.mp4" type="video/mp4"></video>
-	</div>
-
+	<video playsinline autoplay muted loop><source src="Octagon.mp4" type="video/mp4"></video>
+	
 	<div class="block">
 		{{ if .icon }}
 		<div class="video-button">
