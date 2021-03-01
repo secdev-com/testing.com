@@ -15,12 +15,7 @@
   
 }
 
-section .hero-area {
-  position: relative;
-  background-color: black;
-  height: 100%;
-  min-height: 25rem;
-  width: 100%;
+.hero-area {
   overflow: hidden;
 }
 
